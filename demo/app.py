@@ -15,11 +15,11 @@ EXAMPLE_SQL = 'select * from demo.pet'
 
 @app.route('/')
 def hello_world():
-    conn = mysql.connection
-    cur = conn.cursor()
-    cur.execute(EXAMPLE_SQL)
-    output = cur.fetchall()
-    return str(output)
+    # conn = mysql.connection
+    # cur = conn.cursor()
+    # cur.execute(EXAMPLE_SQL)
+    # output = cur.fetchall()
+    # return str(output)
     return 'Hello, World!'
 
 
