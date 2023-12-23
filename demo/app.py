@@ -20,7 +20,7 @@ def hello_world():
     cur.execute(EXAMPLE_SQL)
     output = cur.fetchall()
     return str(output)
-    # return 'Hello, World!'
+    return 'Hello, World!'
 
 
 # if __name__ == "__main__":
